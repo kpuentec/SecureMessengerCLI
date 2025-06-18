@@ -50,12 +50,14 @@ Structure:
 
 *.gitignore : Git ignore file to exclude unnecessary files
 
+*CLImessage.png : demo image.
+
 *LICENSE : Project license info
 
 *README.md: This file
 
 Output:
-
+![CLI Chat Preview](CLImessage.png)
 * Encrypted chat messages printed live in the terminal
 * Clean exit from chat with /quit command
 * Terminal display with user-name and color coding for easy readability
