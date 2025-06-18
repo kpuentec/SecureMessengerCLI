@@ -6,7 +6,7 @@ from hashlib import sha256
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 from colorama import Fore, Style, init
 
-HOST = "192.168.1.162"
+HOST = "127.0.0.1"
 PORT = 9999
 
 def verify():
