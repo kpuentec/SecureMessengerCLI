@@ -43,6 +43,8 @@ Run:
            PORT = 9999
 
 * Ensure both users (Host and Client) have the same HOST and PORT settings before starting the chat.
+  
+* To exit, type "/quit" and/or Ctrl+C
 
 Structure:
 
