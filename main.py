@@ -112,21 +112,21 @@ def decrypt(data, key):
     return plaintext.decode()
 
 def main():
-        print("\n")
-        print("*===== Secure Messenger CLI =====*\n")
-        print("Securely exchange messages\n")
+    print("\n")
+    print("*===== Secure Messenger CLI =====*\n")
+    print("Securely exchange messages\n")
 
-        print("1. Begin Connection")
-        print("2. Quit")
-        choice = input("Choose an option: ").strip()
+    print("1. Begin Connection")
+    print("2. Quit")
+    choice = input("Choose an option: ").strip()
 
-        if choice == "1":
-            verify()
-        elif choice == "2":
-            exit()
-        else:
-            print("Invalid choice. Try again.\n")
-            main()
+    if choice == "1":
+        verify()
+    elif choice == "2":
+        exit()
+    else:
+        print("Invalid choice. Try again.\n")
+        main()
 
 
 if __name__ == "__main__":
